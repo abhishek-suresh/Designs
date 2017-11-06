@@ -1,0 +1,827 @@
+/*Color Reference
+olivedrab : #75992e
+*/
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:16px;
+     -webkit-font-smoothing: antialiased;
+    -text-rendering: optimizelegibility;
+}
+
+/*GLOBAL*/
+h1,h2,h3,h4,h5,h6{
+    -webkit-font-smoothing: antialiased;
+    -text-rendering: optimizelegibility;
+    font-weight: bold;
+    
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1,h2{
+    margin: 0 0 4px;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+h4{
+    font-size: 18px;
+    color: olivedrab;
+}
+
+
+/*NAVBAR*/
+.navbar.navbar-inverse{
+    padding: 0px 20px;
+    height: 70px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.navbar.shrink{
+    background-color: olivedrab;
+    transition: background-color 0.7s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-nav>li>a.shrink{
+    color: black;
+}
+
+#site-header .navbar-nav>li>a{
+    line-height: 43.5px;
+    font-weight: 700px;
+    font-size: 1em;
+    color:white
+}
+
+#site-header button{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-inverse .navbar-collapse {
+        color: white;
+        background-color: olivedrab;
+        border-top: none;
+     } 
+ }
+
+
+.navbar-brand{
+    margin-top: 10px;
+}
+
+#site-header a{
+    color: white;
+      -webkit-font-smoothing: antialiased;
+    -text-rendering: optimizelegibility;
+    font-weight: bold;  
+}
+
+.navbar-brand>span{
+    font-weight: bolder;
+    font-size: 1.5em;
+      -webkit-font-smoothing: antialiased;
+    -text-rendering: optimizelegibility;
+    font-weight: bold;
+    
+}
+
+/*
+#site-header .navbar-nav>li>a:hover{
+    color: olivedrab;
+}
+*/
+
+/*Hero Section*/
+
+#hero .jumbotron{
+	background: url('../images/hero.jpg') 50% 100% repeat fixed;
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#hero h1>span{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: olivedrab;
+}
+
+#hero p{
+    margin: 20px 0;
+}
+
+#hero .jumbotron a.btn{
+    border-radius: 30px;
+    margin: 10px 30px;
+}
+
+#hero .jumbotron a.btn-default{
+    background-color: rgba(0,0,0,0);
+    color: olivedrab;
+}
+
+#hero .jumbotron a.btn-default:hover{
+    background-color: olivedrab;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*Features Tile*/
+
+#feature-tiles{
+    text-align: center;
+    color: olivedrab;
+    margin: 0 0 100px;
+}
+
+#feature-tiles i{
+    margin: 50px 0 10px;
+    font-size: 50px;
+    color: olivedrab;
+}
+
+#feature-tiles h2{
+    margin: 50px 0 50px;
+    color: olivedrab;
+}
+
+#feature-tiles h2:hover{
+    text-decoration: underline;
+}
+
+#feature-tiles p{
+    color: #7f8c8d;
+    text-align: center;
+}
+
+#feature-tiles .col-sm-4{
+    margin: 0 0 0 0px;
+}
+
+
+/*small product bar*/
+#small-product-bar{
+    background-color: olivedrab;
+    color:white;
+    padding: 20px 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+
+#small-product-bar p{
+    margin: 7px 0 0 0;
+}
+
+#small-product-bar .btn{
+    background-color: olivedrab;
+    color:white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 30px;
+}
+
+#small-product-bar .btn:hover{
+    background-color: white;
+    color: olivedrab;
+    border-color: olivedrab;
+    transition: background-color 0.5s ease;
+}
+
+/*Gallery Images Section*/
+
+#productGallery{
+    text-align: center;
+}
+
+#productGallery h1{
+    text-align: center;
+    color: olivedrab;
+    margin: 40px 0 0;
+}
+#productGallery .thumbnail{
+    margin: 50px 0 100px;
+    width: 270px;
+    height: 310px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#productGallery .thumbnail a{
+    color: olivedrab;
+}
+
+#productGallery .thumbnail a:hover{
+    text-decoration: none;
+}
+
+#productGallery a.btn-primary{
+    color: olivedrab;
+    background-color: white;
+    border-color: olivedrab;
+}
+
+#productGallery a.btn-primary:hover{
+    background-color: olivedrab;
+    color: white;
+    transition: background-color 0.6s ease;
+}
+
+#productGallery .container > a.btn{
+    margin: 50px 0;
+}
+
+/*CoreValues Section*/
+#coreValues{
+    text-align: center;
+    color: white;
+}
+
+#coreValues h2>span{
+    font-weight: bold;
+    font-size: 1.7em;
+    color: olivedrab;
+}
+
+#coreValues .jumbotron{
+    background: url(../images/coreValues.jpeg) 50% 50% repeat fixed;
+    min-height: 500px;
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+     
+}
+
+#coreValues .overlay2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+/*Experience Section*/
+#experience{
+    text-align: center;
+    background-color: olivedrab;
+    color: white;
+    text-transform: uppercase;
+}
+
+#experience h3{
+    font-weight: 700;
+    font-size: 3em;
+    -webkit-font-smoothing: antialiased;
+    -text-rendering: optimizelegibility;
+}
+
+#experience .col-sm-3{
+    border-right: 0.1px solid white;
+    border-bottom: 0;
+    border-top: 0;
+    
+}
+
+#experience .last-child{
+    border-right: none;
+    
+}
+
+
+/*Contact Us*/
+
+#contact-us{
+    text-transform: uppercase;
+    text-align: center;
+    color: olivedrab;
+    margin: 0 0 70px;
+
+
+}
+
+#contact-us .form-area
+{
+    background-color: white;
+    color: olivedrab;
+	padding: 15px 40px 60px;
+	margin: 10px 0px;
+	border: 1px solid GREY;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+#contact-us h2{
+    margin: 70px 0 50px;
+}
+
+#contact-us button.btn-primary{
+    color: olivedrab;
+    background-color: white;
+    border-color: olivedrab;
+}
+
+#contact-us button{
+    margin: 50px 0 0;
+}
+
+#contact-us button.btn-primary:hover{
+ color: white;
+    background-color: olivedrab;
+    transition: background-color 0.5s ease;
+}
+
+/*google maps*/
+
+#map-section iframe{
+    height: 300px;
+    width: 100%;
+}
+
+/*Footer Section*/
+
+footer{
+    background-color: whitesmoke;
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer img{
+     max-width: 150px;
+     max-height: 50px;
+}
+
+footer .col-sm-6{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0;
+}
+
+footer a{
+    color: #777777;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: olivedrab;
+}
+
+footer p{
+    margin: 30px 0 0;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px 0;
+}
+
+
+/*=========================================================*/
+
+/*FOR ABOUT US*/
+/*navbar*/
+#AboutUs-site-header .navbar-inverse{
+    color: white;
+}
+
+#AboutUs-site-header .navbar-nav>li>a{
+    line-height: 43.5px;
+    font-weight: 700px;
+    font-size: 1em;
+    color:white;
+}
+
+/*
+#AboutUs-site-header .navbar-nav>li>a:hover{
+    color: olivedrab;
+}
+*/
+
+#AboutUs-site-header .navbar-brand{
+    margin-top: 10px;
+    color: white;
+}
+
+
+/*HERO*/
+
+#hero-aboutUs .jumbotron{
+    background: url(../images/about-us.jpeg) 50% 40% repeat;
+    background-size: cover;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hero-aboutUs .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#hero-aboutUs h1>span{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: olivedrab;
+}
+
+/*About us info section*/
+#about-us-info{
+    text-align: center;
+}
+
+#about-us-info p{
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+#about-us-info p>span{
+    font-weight: bold;
+    color: olivedrab;
+}
+
+#about-us-info h1{
+    margin: 10px 0 30px;
+    color: olivedrab;
+    text-transform: uppercase;
+}
+
+#about-us-info .col-sm-8.col-sm-offset-2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     transition: box-shadow 0.7s ease;
+}
+
+#key-details{
+    text-align: center;
+    color: olivedrab;
+}
+
+#key-details h1{
+    margin: 50px 0 50px;
+}
+
+#key-details li{
+    text-align: center;
+    list-style: none;
+}
+
+#key-details .panel-heading{
+    color: white;
+    background-color: olivedrab;
+}
+
+#key-details .panel-heading{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     transition: box-shadow 0.5s ease;
+}
+
+#key-details .panel-body:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     transition: box-shadow 0.5s ease;
+}
+
+
+/*Product Page*/
+
+/*Hero Section*/
+
+#hero-products .jumbotron{
+    background: url(../images/product-page.jpeg) 50% 60% repeat;
+    background-size: cover;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hero-products .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#hero-products h1>span{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: olivedrab;
+}
+
+
+/*Product page gallery*/
+#productpage-gallery{
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+#productpage-gallery h1{
+    text-align: center;
+    color: olivedrab;
+    margin: 40px 0 0;
+}
+
+#productpage-gallery .thumbnail{
+    margin: 50px 0 100px;
+    width: 270px;
+    height: 310px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#productpage-gallery .thumbnail a{
+    color: olivedrab;
+    font-size: 0.9em;
+}
+
+#productpage-gallery .thumbnail>.caption>a:hover{
+    text-decoration: none;
+}
+
+
+#productpage-gallery .container > a.btn{
+    margin: 50px 0;
+}
+
+#productpage-gallery .dropdown>button{
+    background-color: white;
+    color: olivedrab;
+    border-radius: 10px;
+}
+
+#productpage-gallery .dropdown>button:hover{
+    background-color: olivedrab;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+/*F1Bg1SiteHeader*/
+/*navbar*/
+#f1BG1-site-header .navbar-inverse{
+    color: white;
+    background-color: olivedrab;
+}
+
+#f1BG1-site-header .navbar-nav>li>a{
+    line-height: 43.5px;
+    font-weight: 700px;
+    font-size: 1em;
+    color:white;
+}
+
+#f1BG1-site-header .navbar-brand{
+    margin-top: 10px;
+    color: white;
+}
+
+
+/*Product Detail Page*/
+
+/*product-detail1*/
+
+#product-detail1
+{
+    margin: 110px 0 0;
+}
+
+#product-detail1 .thumbnail{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#product-detail1 .thumbnail>.caption{
+    text-align: center;
+}
+
+#product-detail1 .thumbnail>.caption>a{
+    text-decoration: none;
+    color: olivedrab;
+}
+
+#product-detail1 .thumbnail>.btn-default{
+    background-color: white;
+    color: olivedrab;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#product-detail1 .thumbnail>.btn-default:hover{
+    color: white;
+    background-color: olivedrab;
+    transition: background-color 0.5s ease;
+}
+
+#product-detail1 .panel .panel-heading{
+    color: white;
+    background-color: olivedrab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#product-detail1 .panel{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#product-detail1 table tr>td.td-change{
+    font-weight: bold;
+}
+
+#product-detail1 .panel{
+    margin: 50px 0 0;
+}
+
+/*Other Details*/
+#other-products{
+    text-align: center;
+}
+
+#other-products h1{
+    text-align: center;
+    color: olivedrab;
+    margin: 40px 0 0;
+}
+#other-products .thumbnail{
+    margin: 50px 0 100px;
+    width: 270px;
+    height: 310px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#other-products .thumbnail img{
+    height: 250px;
+        width:250px;
+}
+
+#other-products .thumbnail .caption{
+    margin: 10px 0 0;
+}
+
+#other-products .thumbnail a{
+    color: olivedrab;
+}
+
+#other-products .thumbnail a:hover{
+    text-decoration: none;
+}
+
+#other-products a.btn-primary{
+    color: olivedrab;
+    background-color: white;
+    border-color: olivedrab;
+}
+
+#other-products a.btn-primary:hover{
+    background-color: olivedrab;
+    color: white;
+    transition: background-color 0.6s ease;
+}
+
+#other-products .container > a.btn{
+    margin: 50px 0;
+}
+
+#other-products h4
+{
+    color: olivedrab;
+    
+}
+
+#other-products
+{
+    margin: 50px 0 0;
+}
+
+/*Contact us again*/
+/*Contact Us*/
+
+#contact-us-again{
+    text-transform: uppercase;
+    color: olivedrab;
+    text-align: center;
+    margin: 0 0 100px;
+}
+
+#contact-us-again h2{
+    text-align: center;
+    margin: 70px 0 50px;
+}
+
+#contact-us-again form{
+    margin: 30px 0 0;
+}
+
+#contact-us-again .form-group{
+    margin: 10px 20px 0;
+}
+
+#contact-us-again input{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 230px;
+}
+
+#contact-us-again input:focus{
+    background-color: white;
+    transition: background-color 0.5s ease;
+    border-color: olivedrab;
+}
+
+#contact-us-again #inputMessage{
+    height: 150px;
+    width: 500px;
+}
+
+#contact-us-again #inputEmail{
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#contact-us-again .form-group{
+    text-align: left;
+}
+
+#contact-us-again .btn-primary{
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    color: olivedrab;
+    border-radius: 10px;
+    border-color: olivedrab;
+}
+
+#contact-us-again .btn-primary:hover{
+    background-color: olivedrab;
+    color: white;
+    border-color: olivedrab;
+    transition: background-color 0.5s ease;
+}
+
+#contact-us-again .col-sm-8.col-sm-offset-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact-us-again .form-inline{
+    margin: 0 0 30px;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 1190px){
+    #product-gallery .thumbnail{
+        margin: 0 1000px 0 0;
+    }
+}
+
+
+/*Glyphicons*/
+span.glyphicon{
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    background-color: black;
+}

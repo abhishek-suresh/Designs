@@ -1,0 +1,47 @@
+/*Global*/
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+/*Cover/Hero*/
+#cover{
+    background: #222 url('../img/hero.jpg')center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    position: relative;
+}
+
+#cover-caption{
+    flex-basis: 100%;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+form{
+    justify-content: center;
+}
+
+.section-content{
+    padding: 3.2rem 0;
+}
+
+.card-group{
+    margin: 0 0 2rem;
+}
+
+
+#pagination nav>ul{
+    justify-content: center;
+}

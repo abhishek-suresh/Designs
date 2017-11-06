@@ -1,0 +1,287 @@
+/*GLOBAL*/
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    margin: 0;
+}
+/*Typograhy*/
+h1,
+h2,
+h3,
+h4,
+h5{
+ font-family: 'Oswald', sans-serif;
+}
+
+p{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 16px;
+ color: #f7b731;
+ 
+}
+
+/*NAVIGATION BAR*/
+.navbar-default{
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: white;
+}
+
+.navbar.shrink{
+    background-color: #f7b731;
+    transition: background-color 0.7s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-nav>li>a.shrink{
+    color: white;
+}
+
+/*HERO SECTION*/
+#hero{
+    text-align: center;
+    color: #f7b731;
+}
+
+#hero .jumbotron{
+    background: url('../images/hero.jpg')50% 70%  repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .jumbotron>.overlay{
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#hero .jumbotron{
+    padding: 100px 0 80px;
+    margin-bottom: 0px;
+}
+
+#hero h1{
+    text-transform: capitalize;
+}
+
+
+#hero .btn-default{
+    background-color: transparent;
+    color: #f7b731;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 40px 30px 0;
+}
+
+#hero .btn-default:hover{
+    background-color: #f7b731;
+    color: white;
+    transition: background-color 0.5s  ease;
+}
+
+#hero span{
+    font-size: 2.3em;
+}
+
+/*Features Section*/
+#features-section{
+    text-align: center;
+    font-size: 5em;
+    background-color: #f7b731;
+    padding: 30px 0;
+}
+
+#features-section .col-sm-4{
+    border-right: 1px solid white;
+}
+
+#features-section .col-sm-4:nth-child(3){
+    border-right: none;
+}
+
+#features-section i{
+    color: white;
+}
+
+#features-section p{
+    color: white;
+    font-size: 0.3em;
+}
+
+@media (max-width : 768px){
+    #features-section .col-sm-4{
+        border-bottom: 1px solid white;
+    }
+}
+
+@media (max-width : 768px){
+    #features-section .col-sm-4:nth-child(3){
+        border-bottom: none;
+    }
+}
+
+/*Our Fleet Section*/
+#ourFleet{
+    background: url('../images/hero2.jpeg')50% 100% fixed repeat;
+    background-size: cover;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    z-index: 1;
+}
+
+#ourFleet h2{
+    color:  #f7b731;
+    margin-top: 50px;
+}
+
+#ourFleet .overlay2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;    
+}
+
+#ourFleet .thumbnail{
+    margin: 40px 20px 40px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.43);
+    -moz-box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.43);
+    box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.43);
+}
+
+#ourFleet .btn-default{
+    background-color: transparent;
+    color: #f7b731;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 20px 30px 0;
+}
+
+#ourFleet .btn-default:hover{
+    background-color: #f7b731;
+    color: white;
+    transition: background-color 0.5s  ease;
+}
+
+/*Outstations*/
+
+#outstations {
+    text-transform: capitalize;
+    text-align: center;
+    color: #f7b731;
+    margin: 0 0 50px;
+}
+
+
+#outstations h2{
+    margin: 50px 0;
+}
+
+#outstations .outstation-box:nth-child(2)
+{
+    margin: 0 auto;
+}
+
+#outstations .outstation-box:nth-child(3)
+{
+    margin: 0 auto;
+}
+
+#outstations .thumbnail>img{
+    border-radius: 10px;
+}
+
+#outstations .thumbnail{
+    border: none;
+    flex-basis: 35%;
+    position: relative;
+}
+
+@media (min-width: 900px){
+    #outstations .outstation-box{
+        display: flex;
+        justify-content:center;
+    }
+}
+
+/*call us to check*/
+
+#callus2 {
+    text-align: center;
+    background-color: #f7b731;
+    padding: 30px 0 0;
+}
+
+#callus2 .number-box{
+border-top:5px dashed #ffffff;
+border-right:0px dashed #ffffff;
+border-bottom:5px dashed #ffffff;
+border-left:0px dashed #ffffff;
+}
+
+#callus2 .number-box>p{
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+}
+
+#callus2 p{
+    text-transform: capitalize;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/*Modal*/
+.modal-header{
+    background-color: #f7b731;
+    color: white;
+    text-transform: capitalize;
+}
+
+.modal-body .btn-default{
+    background-color: transparent;
+    color: black;
+}
+
+.modal-body .btn-default:hover{
+    background-color: #f7b731;
+    color: white;
+    transition: background-color 0.6s ease;
+}
+
+.modal-footer{
+    background-color: #f7b731;
+}
+
+
+.modal-footer .btn-default:hover{
+    background-color: #f7b731;
+    color: white;
+    transition: background-color 0.6s ease;
+}

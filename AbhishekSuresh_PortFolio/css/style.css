@@ -1,0 +1,59 @@
+/*Global*/
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.navbar-light{
+    background-color: transparent;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+/*Hero Section*/
+
+#hero{
+    background: url('../img/hero.jpeg')center center fixed no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.overlay-hero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#hero .hero-caption{
+    text-align: center;
+    flex-basis: 100%;
+    color: white;
+}

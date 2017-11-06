@@ -1,0 +1,69 @@
+html,
+body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*cover*/
+#cover{
+    background: #222 url('../img/stars.jpg')center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover form{
+    justify-content: center;
+}
+
+#cover-caption{
+    flex-basis: 100%;
+}
+
+/*navbar*/
+.navbar-dark .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+/*What we do section*/
+.section-content{
+    padding: 5rem 0;
+}
+
+/*About Section*/
+#about{
+    background: url(../img/girlincar.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#news nav{
+    flex-basis: 100%;
+}
+
+#news nav>ul{
+    justify-content: center;
+}
+
+/*footer*/
+#footer-main{
+    background-color: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}

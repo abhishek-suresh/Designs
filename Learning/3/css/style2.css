@@ -1,0 +1,92 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+.blockquote{
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer{
+    margin: 1rem 0 0;
+}
+
+#stage{
+    height: 100%;
+    width: 100%;
+    background: url('../img/stage.jpg')center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#stage-caption{
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+#stage-caption h1{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.feature-content{
+    padding: 8rem 0;
+    overflow: hidden;
+
+}
+
+.feature-content img{
+    margin-bottom: -8rem;
+}
+
+.feature-dark {
+    background: #262f36;
+    color: white;
+}
+
+.feature-dark h2{
+    color: white;
+}
+
+.feature-alt{
+    background: #f0f0f0;
+}
+
+#feature-four .feature-content{
+    padding: 0;
+}
+
+#feature-five img{
+    margin-top: 2rem;
+}
+
+@media screen and ( min-width : 991px ) {
+    .feature-content .row {
+        display: flex;
+        align-items: center;
+    }
+}
